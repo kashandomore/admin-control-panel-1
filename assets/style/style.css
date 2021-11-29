@@ -1,0 +1,50 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: lightgray;
+}
+
+nav {
+  background-color: black;
+}
+
+nav h1 {
+  padding: 20px;
+  font-size: 50px;
+  color: white;
+}
+
+.d1 {
+  background-color: #bababa;
+  background-blend-mode: darken;
+  width: 330px;
+  height: 100%;
+  position: fixed;
+  display: none;
+}
+
+.d1 ul {
+  padding: 40px;
+  list-style: none;
+}
+
+.d1 ul li {
+  font-size: 30px;
+  margin: 20px 0;
+}
+
+.d1 ul li:hover {
+  background-color: white;
+}
+
+.d1 ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 35px;
+}
+/*# sourceMappingURL=style.css.map */
