@@ -14,7 +14,7 @@ nav{
     background-color: black;
     h1{
         padding: 20px;
-        font-size: 50px;
+        font-size: 60px;
         color: white;
     }
 }
@@ -26,23 +26,35 @@ nav{
     height: 100%;
     position: fixed;
     display: none;
-
-        ul{
-            padding: 40px;
-            list-style: none;
-            li{
-                font-size: 30px;
-                &:hover{
-                    background-color: white;
-
-                }
-                a{
-                    text-decoration: none;
-                    color: black;
-                    font-size: 35px;
-                    
-                }
-                margin:  20px 0;
+    ul{
+        text-decoration: none;
+        list-style: none;
+        padding: 40px;
+        li{
+            font-size: 29px;
+            padding-left: 20px;
+            &:hover{
+                background-color: white;
+                border-radius: 5px;
             }
         }
+    }
+    a{
+        color: black;
+        text-decoration: none;
+        font-size: 30px;
+    }
+    .collapse{
+        background-color: lightgray;
+    }
+    .i2{
+        cursor: pointer;
+    }
+}
+//Banner
+.banner{
+    margin-top: 200px ; 
+    h1{
+        font-family:serif;
+    }
 }
